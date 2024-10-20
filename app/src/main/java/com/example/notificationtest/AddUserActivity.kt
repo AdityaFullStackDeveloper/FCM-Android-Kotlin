@@ -129,7 +129,7 @@ class AddUserActivity : AppCompatActivity() {
             .subscribe({
                 Toast.makeText(this, "Add Data Notification sent", Toast.LENGTH_SHORT).show()
             }, { error ->
-                Toast.makeText(this, "Failed to update item: ${error.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Failed to update items: ${error.message}", Toast.LENGTH_SHORT).show()
             })
     }
 }
