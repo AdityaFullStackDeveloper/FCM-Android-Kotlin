@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".AddUserActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        app:boxBackgroundMode="filled"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:boxBackgroundMode="filled">
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_password"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_user"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:text="@string/register" />
+
+</LinearLayout>

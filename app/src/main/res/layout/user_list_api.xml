@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/userEmailView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/userNameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/userUpdateIcon"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="290dp"
+            android:src="@drawable/baseline_edit_24" />
+
+        <ImageView
+            android:id="@+id/userDeleteIcon"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="340dp"
+            android:src="@drawable/baseline_delete_24" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

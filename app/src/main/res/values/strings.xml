@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NotificationTest</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="register">Register</string>
+    <string name="enter_password">Enter name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="update">Update</string>
+</resources>
